@@ -3,7 +3,7 @@ import TodoItem from './Todoitem';
 
 function TodoList({ todos, toggleTodo, deleteTodo }) {
   return (
-    <ul className="space-y-2">
+    <ul className="space-y-3">
       {todos.map(todo => (
         <TodoItem
           key={todo.id}
